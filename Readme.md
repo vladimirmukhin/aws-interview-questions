@@ -1,16 +1,17 @@
 <h2> General questions </h2>
 
-1. What is shared responsibility model?
-2. What is the difference between IaaS, PaaS and SaaS?
-3. What is the difference between Public cloud and Private cloud?
-4. What requirements should be met in order for physical datacenter to be considered as Private cloud?
-5. What is AWS Well-Architected framework? What are the main "pillars" of AWS Well-Architected?
-6. Describe AWS Global infrastructure.
-7. What is AWS partition?
-8. What is region?
-9. What is availability zone?
-10. What is edge location?
-11. What tool can be used in order to estimate AWS infrastrcture costs beforehand?
+1. Explain the advantage of a cloud over traditional data center.
+2. What is shared responsibility model?
+3. What is the difference between IaaS, PaaS and SaaS?
+4. What is the difference between Public cloud and Private cloud?
+5. What requirements should be met in order for physical datacenter to be considered as Private cloud?
+6. What is AWS Well-Architected framework? What are the main "pillars" of AWS Well-Architected?
+7. Describe AWS Global infrastructure.
+8. What is AWS partition?
+9. What is region?
+10. What is availability zone?
+11. What is edge location?
+12. What tool can be used in order to estimate AWS infrastrcture costs beforehand?
 
 <h2> Basic questions </h2>
 
@@ -28,6 +29,7 @@
 3. What types of Load Balancers exist on AWS? What are the difference between them?
 4. What is AWS Direct Connect? What SLA is provided by direct conect AWS Direct Connect?
 5. What HA Options are available for Direct connect?
+6. Explain the difference between AWS WAF, security group and network ACL. What tool would you choose?
 
 <h3> Amazon S3 </h3>
 
@@ -122,8 +124,8 @@ separated into two different blocks?
 7. How to predict what happens with an AWS resource during CloudFormation stack update and avoid the risk of accidential deletion?
 8. What other options are available to prevent accidental deletion of CloudFormation resources?
 
+<h3> Amazon CloudFront </h3>
 
-<h2> Hard questions </h2>
+<h3> AWS Identity and Access Management </h3>
 
-<h2> Practice tasks </h2>
-
+<h3> AWS Lambda </h3>
