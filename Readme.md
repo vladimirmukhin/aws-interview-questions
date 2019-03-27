@@ -76,14 +76,17 @@
 and
 `"Resource":"arn:aws:s3:::examplebucket/*"`
 separated into two different blocks?
-8. What is object availability and object durability?
-9. What can we do to increase object durability and object availability?
-9. What Amazon S3 storage types exist?
-10. What is object lifecycle management?
-11. What encryption options exist in Amazon S3?
-12. Amazon Glacier is an extremely low-cost cloud storage that can be used as a long-term backup. What risks should be considered before choosing AWS Glacier as a backup storage?
-13. What Amazon S3 features can prevent from exposing confidential data to the public Internet?
-14. Access settings for your AWS account does not allow public S3 buckets but we still need to publish a static website hosted on Amazon S3. How can we acheive the goal without having to change public access settings?
+8. A user is browsing your website and finds a funny picture that he would like to share with a colleague. He copies an URL and sends it via messager. When a colleague is trying to open a link, he receives 403 error. The website infrastructure is completely hosted on AWS. What could be the reason for the issue?
+9. What is object availability and object durability?
+10. What can we do to increase object durability and object availability?
+11. What Amazon S3 storage types exist?
+12. What is object lifecycle management?
+13. What encryption options exist in Amazon S3?
+14. Amazon Glacier is an extremely low-cost cloud storage that can be used as a long-term backup. What risks should be considered before choosing AWS Glacier as a backup storage?
+15. What Amazon S3 features can prevent from exposing confidential data to the public Internet?
+16. Access settings for your AWS account does not allow public S3 buckets but we still need to publish a static website hosted on Amazon S3. How can we acheive the goal without having to change public access settings?
+17. How to share a file located in Amazon S3 with another AWS account?
+18. How to share a file located in Amazon S3 with somebody who does not have an AWS account?
 
 <h3> Amazon EC2 </h3>
 
@@ -124,8 +127,22 @@ separated into two different blocks?
 7. How to predict what happens with an AWS resource during CloudFormation stack update and avoid the risk of accidential deletion?
 8. What other options are available to prevent accidental deletion of CloudFormation resources?
 
-<h3> Amazon CloudFront </h3>
-
 <h3> AWS Identity and Access Management </h3>
+
+1. What basic steps should be performed in order to secure newly created AWS account?
+2. What is PARC?
+3. You have created an IAM user and applied AdministratorPolicy policy to it. When trying to download a file from S3 you receive Access Denied. You are able to access other services. What could be the reason for the issue?
+4. How to configure EC2 isntance to be able to connect to AWS services?
+5. Once you attached an IAM role to an EC2 instance, your AWS CLI starts to authenticate without any changes. What steps should you perform if you have an application written on C that should be authenticated in AWS
+6. Write an IAM policy for a user that is able to create another IAM users with limited permission scope?
+7. What should be done in order to access resources located in one AWS account while being authenticated in another AWS account? What problems could be solved using such approach?
+
+<h3> Security on AWS </h3>
+
+1. What governance and logging options are avilable on AWS?
+2. What tools can be used in order to discover compromised AWS resources?
+3. What steps should be performed in case of having an instance compromised?
+
+<h3> Amazon CloudFront </h3>
 
 <h3> AWS Lambda </h3>
