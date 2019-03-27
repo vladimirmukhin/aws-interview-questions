@@ -113,6 +113,8 @@ separated into two different blocks?
 12. What is primary key in DynamoDB? What kind of primary keys exist?
 13. What is secondary index? How is it different from primary key?
 14. What is the difference between local secondary index and global secondary index?
+15. What is the maximum size of a DynamoDB item? How to workaround this limitation?
+16. In what cases DynamoDB should NOT be used?
 
 <h3> CloudFormation </h3>
 
@@ -147,3 +149,5 @@ separated into two different blocks?
 <h3> Amazon CloudFront </h3>
 
 <h3> AWS Lambda </h3>
+
+1. In what cases AWS Lambda should NOT be used?
