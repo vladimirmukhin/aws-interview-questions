@@ -151,3 +151,4 @@ separated into two different blocks?
 <h3> AWS Lambda </h3>
 
 1. In what cases AWS Lambda should NOT be used?
+2. How does AWS Lambda integrates with another AWS services?
