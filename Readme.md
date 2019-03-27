@@ -12,14 +12,11 @@
 10. What is availability zone?
 11. What is edge location?
 12. What tool can be used in order to estimate AWS infrastrcture costs beforehand?
-
-<h2> Basic questions </h2>
-
-1. What storage options exist on AWS?
-2. What compute options exist on AWS?
-3. What database options exist on AWS?
-4. What services can be used for monitoring AWS resources?
-5. What services can be used for automating provisioning process on AWS?
+13. What storage options exist on AWS?
+14. What compute options exist on AWS?
+15. What database options exist on AWS?
+16. What services can be used for monitoring AWS resources?
+17. What services can be used for automating provisioning process on AWS?
 
 <h2> Questions by service </h2>
 <h3> Networking </h3>
@@ -30,6 +27,7 @@
 4. What is AWS Direct Connect? What SLA is provided by direct conect AWS Direct Connect?
 5. What HA Options are available for Direct connect?
 6. Explain the difference between AWS WAF, security group and network ACL. What tool would you choose?
+7. What options for connecting multiple VPCs are available. How do you make a decision about what particular option to choose?
 
 <h3> Amazon S3 </h3>
 
@@ -142,6 +140,9 @@ separated into two different blocks?
 1. What governance and logging options are avilable on AWS?
 2. What tools can be used in order to discover compromised AWS resources?
 3. What steps should be performed in case of having an instance compromised?
+4. What encryption options are available in AWS? How to decide what encryption option is needed for a particular case?
+5. What steps should be performed in order to encrypt an EC2 instance that already exists?
+6. What steps should be performed in order to share encrypted EBS snapshot with another AWS account?
 
 <h3> Amazon CloudFront </h3>
 
