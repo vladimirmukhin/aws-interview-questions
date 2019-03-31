@@ -146,8 +146,6 @@ separated into two different blocks?
 5. What steps should be performed in order to encrypt an EC2 instance that already exists?
 6. What steps should be performed in order to share encrypted EBS snapshot with another AWS account?
 
-<h3> Amazon CloudFront </h3>
-
 <h3> AWS Lambda </h3>
 
 1. In what cases AWS Lambda should NOT be used?
